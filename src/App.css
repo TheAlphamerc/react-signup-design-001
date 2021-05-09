@@ -1,38 +1,131 @@
 .App {
-  text-align: center;
+  
+    background: linear-gradient(135deg,#ff283d,#f7c2a3,#f7c2a3);
+    height: 100vh;
+    display:flex ;
+    justify-content: center;
+    align-items: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.App h3 {
+    margin:0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.App .card{
+  background: white;
+  padding:1.5rem;   
+  border-radius:.8rem;
+  box-shadow:0 0 10px 0 #00000033;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.App .card .card-header{
+    text-align:center;
+    margin: 0;
 }
 
-.App-link {
-  color: #61dafb;
+.App .card .signup-holder{
+    text-align:center;
+    color: #444;
+    margin: 6px;
+    font-size: small;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.App .card .signup-holder a {
+  color:#60a5ff;
+  padding: 4px;
+}
+
+.App .card .form{
+    padding:12 px 0px;
+}
+
+.App .card .form-group{
+    margin: 12px 0px;
+}
+
+.App .card .form-group .form-control{
+    background: #f8f8f8;
+    border: none;
+    padding:  12px;
+    border-radius:8px;
+    box-sizing: border-box;
+    width:100%;
+}
+
+.App .card .form-group .form-control:hover, 
+.App .card .form-group .form-control:focus{
+    background: white;
+    box-shadow: 0px 0  6px 0 #aaa6;    
+}
+
+.App .card .form-group .form-control:first-child{
+ border-top-left-radius: 8px;
+ border-bottom-left-radius: 8px;
+}
+
+.App .card .form-group .form-control:last-child{
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.App .card .form-group .form-control.half{
+    width: calc(50% - 2px);
+}
+
+.App .card .form-group .form-control.half:last-child{
+    margin-left:4px;
+}
+
+.App .card .form-group .form-control :focus{
+  outline:none;
+}
+
+.App .card .form .submit-button{
+ border: none;
+ background:#4796ff;
+ color: white;
+ margin: 6px 0px;
+ padding: 12px;
+ border-radius:8px;
+ width: 100%;
+ position: relative;
+} 
+
+.App .card .form .submit-button::before{
+  content: "";
+  display: block;
+  width: 13px;
+  height: 2px;
+  background:white;
+  border-radius:1px;
+  position: absolute;
+  right:16px;
+  top:19px;
+}
+
+.App .card .form .submit-button::after{
+ content: "";
+  display: block;
+  width: 8px;
+  height: 8px;
+  border: 2px solid white;
+  border-left: transparent;
+  border-top: transparent;
+  transform: rotate(-45deg);
+  border-radius:1px;
+  position: absolute;
+  right:16px;
+  top:14.5px;
+}
+
+.App .card .form .terms{
+    margin: 1rem 0;
+    font-size: small;
+    color :#777;
+    display:block;
+}
+.App .card .form .terms a{
+    color:#60a5ff;
+    padding: 0 2px;
+    text-decoration: none;
 }
