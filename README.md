@@ -14,10 +14,10 @@ This is a replication of [Dribbble design](https://dribbble.com/shots/14019613-S
 
 
 ## Credit
-Thanks to [Shubham Singh Chahar](https://www.youtube.com/channel/UCeV5-xA-Q46toY0UBW4iD8g) for creating awesome video toturial on [React.js](https://reactjs.org/)
+Thanks to [@thefallenmerc](https://github.com/thefallenmerc) for creating awesome video toturial on [React.js](https://reactjs.org/)
 
 ### Video Tutorial
-Signup Form Design | Dribbble | ReactJS | Web Development By [@thefallenmerc](https://github.com/thefallenmerc)
+Signup Form Design | Dribbble | ReactJS | Web Development By [Shubham Singh Chahar](https://www.youtube.com/channel/UCeV5-xA-Q46toY0UBW4iD8g)
 
 <a  href="https://www.youtube.com/watch?v=NIn4vcbhi1U">
 <img align="center" height="100" weight="50" src="https://lh3.googleusercontent.com/z6Sl4j9zQ88oUKNy0G3PAMiVwy8DzQLh_ygyvBXv0zVNUZ_wQPN_n7EAR2By3dhoUpX7kTpaHjRPni1MHwKpaBJbpNqdEsHZsH4q" alt ="Loading">  
